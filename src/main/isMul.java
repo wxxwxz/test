@@ -3,7 +3,7 @@ package main;
 public class isMul {
 	
 	public static int is400mul(int x) {
-		if (x % 400 == 0) 
+		if (x / 400 == 0) 
 			return 1;
 		else
 			return 0;
